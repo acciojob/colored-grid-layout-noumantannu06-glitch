@@ -21,7 +21,7 @@
         }
 
         .item1 {
-            grid-column: span 4 / auto; /* Span all 4 columns */
+            grid-column:  span 4 / auto; /* Span all 4 columns */
             grid-row: 1; /* Position it in the first row */
         }
 
@@ -41,6 +41,6 @@
         }
 
         .item10 {
-            grid-column: 1 / span 3; /* Span 3 columns */
+            grid-column: span 3 / auto; /* Span 3 columns */
             grid-row: 4; /* Position it in the 4th row */
         }
