@@ -16,28 +16,25 @@
             color: white;
             font-size: 4vw;
             display: flex;
-    
+            
         }
 
-        .item1 {
-            grid-column: 1 / span 4; /* Span all 4 columns */
-        }
+.item1 {
+    grid-column: span 4; /* Span all 4 columns */
+}
 
-        .item2 {
-            grid-row: 1 / span 4; /* Span 4 rows */
-        }
+.item2 {
+    grid-row: span 4; /* Span 4 rows */
+}
 
-        .item4 {
-            grid-column: 1 / span 2; /* Span 2 columns */
-            grid-row: 5; /* Position it in the 5th row */
-        }
+.item4 {
+    grid-column: span 2; /* Span 2 columns */
+}
 
-        .item5 {
-            grid-column: 3 / span 2; /* Span 2 columns */
-            grid-row: 5; /* Position it in the 5th row */
-        }
+.item5 {
+    grid-column: 2/ span 2; /* Span 2 columns */
+}
 
-        .item10 {
-            grid-column: 1 / span 3; /* Span 3 columns */
-            grid-row: 4; /* Position it in the 4th row */
-        }
+.item10 {
+    grid-column: span 3; /* Span 3 columns */
+}
