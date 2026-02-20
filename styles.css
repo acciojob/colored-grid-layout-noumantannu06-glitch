@@ -21,22 +21,22 @@
         }
 
         .item1 {
-            grid-column: 1 / span 4; /* Span all 4 columns */
+            grid-column: span 4 / auto; /* Span all 4 columns */
             grid-row: 1; /* Position it in the first row */
         }
 
         .item2 {
             grid-column: 1; /* Position it in the first column */
-            grid-row: 1 / span 4; /* Span 4 rows starting from the first row */
+            grid-row: span 4 / auto; /* Span 4 rows starting from the first row */
         }
 
         .item4 {
-            grid-column: 1 / span 2; /* Start at column 1 and span 2 columns */
+            grid-column: span 2 / auto; /* Start at column 1 and span 2 columns */
             grid-row: 5; /* Position it in the 5th row */
         }
 
         .item5 {
-            grid-column: 3 / span 2; /* Start at column 3 and span 2 columns */
+            grid-column: span 3 / auto; /* Start at column 3 and span 2 columns */
             grid-row: 5; /* Position it in the 5th row */
         }
 
